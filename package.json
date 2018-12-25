@@ -1,8 +1,9 @@
 {
   "name": "brain_games_2412",
   "version": "1.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "creating a game called brain_games",
+  "keywords": ["example", "js", "test"],
+  "main": "dist/index.js",
   "bin": {
     "brain-games": "dist/bin/brain-games.js"
   },
@@ -14,7 +15,11 @@
     "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
     "prepublishOnly": "npm run build"
   },
-  "author": "",
+  "repository": {
+  "type": "git",
+  "url": "git+https://github.com/kebabdestructor/project-lvl1-s404"
+  },
+  "author": "Aleksandr Kursanov",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.2.3",
