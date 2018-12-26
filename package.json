@@ -1,6 +1,6 @@
 {
   "name": "brain_games_2412",
-  "version": "1.0.3",
+  "version": "1.1.1",
   "description": "creating a game called brain_games",
   "main" : "index.js",
   "keywords": [
