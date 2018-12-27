@@ -1,6 +1,6 @@
 {
   "name": "brain_games_2412",
-  "version": "1.1.6",
+  "version": "1.2.2",
   "description": "creating a game called brain_games",
   "keywords": [
     "example",
@@ -9,7 +9,8 @@
   ],
   "bin": {
     "brain-even": "dist/bin/brain-even.js",
-    "brain-games": "dist/bin/brain-games.js"
+    "brain-games": "dist/bin/brain-games.js",
+    "brain-calc": "dist/bin/brain-calc.js"
   },
   "files": [
     "dist"

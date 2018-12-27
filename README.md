@@ -5,3 +5,5 @@
 [![asciicast](https://asciinema.org/a/mDFKLK3P1ad46iZoKy107vzTK.svg)](https://asciinema.org/a/mDFKLK3P1ad46iZoKy107vzTK)
 ### brain-even game test
 [![asciicast](https://asciinema.org/a/5eTn73K1tLb4vabhRQHG8BWg5.svg)](https://asciinema.org/a/5eTn73K1tLb4vabhRQHG8BWg5)
+### brain-calc game, installation and game test
+[![asciicast](https://asciinema.org/a/3EK6hHJ3jSd3skc1lslQiYqdh.svg)](https://asciinema.org/a/3EK6hHJ3jSd3skc1lslQiYqdh)
