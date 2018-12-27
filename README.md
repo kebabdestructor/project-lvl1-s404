@@ -7,3 +7,5 @@
 [![asciicast](https://asciinema.org/a/5eTn73K1tLb4vabhRQHG8BWg5.svg)](https://asciinema.org/a/5eTn73K1tLb4vabhRQHG8BWg5)
 ### brain-calc game, installation and game test
 [![asciicast](https://asciinema.org/a/3EK6hHJ3jSd3skc1lslQiYqdh.svg)](https://asciinema.org/a/3EK6hHJ3jSd3skc1lslQiYqdh)
+### brain-gcd game, installation and game test
+[![asciicast](https://asciinema.org/a/tEFtAwjDKcsYuUEJmVQ2kABk5.svg)](https://asciinema.org/a/tEFtAwjDKcsYuUEJmVQ2kABk5)

@@ -1,11 +1,11 @@
 import gamePlay from '..';
-import getRandomNumber from '../randomNumber';
+import getRandomNumber from '../utils';
 import { cons } from 'hexlet-pairs';
 
 const startPhrase = 'What is the result of the expression?';
+const signs = ['+', '*', '-'];
 
 const gameLogic = () => {
-  const signs = ['+', '*', '-'];
   const randSign = getRandomNumber(3, 0);
   const num1 = getRandomNumber(20, 1);
   const num2 = getRandomNumber(20, 1);
@@ -28,5 +28,4 @@ const gameLogic = () => {
   return cons(question, correctAnswer);
 };
 
-const startGame = () => gamePlay(startPhrase, gameLogic);
-export default startGame;
+export default () => gamePlay(startPhrase, gameLogic);
