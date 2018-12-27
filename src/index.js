@@ -1,5 +1,11 @@
 import readlineSync from 'readline-sync';
 
+export const brainGamesGreeting = () => {
+  console.log('Welcome to the Brain Games!');
+  const name = readlineSync.question('May I have your name? ');
+  console.log(`Hello, ${name}!`);
+};
+
 const getName = () => {
   console.log('Welcome to the Brain Games!');
   console.log('Answer "yes" if number even otherwise answer "no"');
@@ -8,27 +14,31 @@ const getName = () => {
   return name;
 };
 
-const getRandomNumber = () => Math.round(Math.random() * (100 - 1) + 1);
+const getRandomNumber = (max, min) => Math.round(Math.random() * (max - min) + min);
+const numberOfSteps = 3;
 
-const isEven = () => {
+const playGame = () => {
   const userName = getName();
-  const numberOfSteps = 3;
-  const iter = (move) => {
-    if (move === numberOfSteps) return console.log(`Congratulations, ${userName}!`);
-    const question = getRandomNumber();
+  const iter = (step) => {
+    if (step === numberOfSteps) {
+      console.log(`Congratulations, ${userName}!`);
+      return;
+    }
+    const question = getRandomNumber(100, 1);
     console.log(`Question: ${question}`);
+    const isEven = () => question % 2 === 0;
     const userAnswer = readlineSync.question('Your answer: ');
-    const correctAnswer = question % 2 === 0 ? 'yes' : 'no';
+    const correctAnswer = isEven() ? 'yes' : 'no';
     if (userAnswer === correctAnswer) {
       console.log('Correct!');
     } else {
-      console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${userAnswer === 'yes'
-        ? 'no' : 'yes'}`);
-      return console.log(`Let's try again, ${userName}!`);
+      console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}`);
+      console.log(`Let's try again, ${userName}!`);
+      return;
     }
-    return iter(move + 1);
+    iter(step + 1);
   };
   iter(0);
 };
 
-export { getName, isEven };
+export { getName, playGame };

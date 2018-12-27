@@ -1,8 +1,7 @@
 {
   "name": "brain_games_2412",
-  "version": "1.1.2",
+  "version": "1.1.6",
   "description": "creating a game called brain_games",
-  "main" : "index.js",
   "keywords": [
     "example",
     "js",
@@ -40,6 +39,7 @@
     "eslint-plugin-import": "^2.14.0"
   },
   "dependencies": {
+    "hexlet-pairs": "^1.0.8",
     "readline-sync": "^1.4.9"
   }
 }
