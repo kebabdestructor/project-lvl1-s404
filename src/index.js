@@ -9,11 +9,11 @@ export default (startPhrase, startGame) => {
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
   const iter = (step) => {
-    const rules = startGame();
     if (step === numberOfSteps) {
       console.log(`Congratulations, ${userName}!`);
       return;
     }
+    const rules = startGame();
     const question = car(rules);
     const correctAnswer = cdr(rules);
     console.log(`Question: ${question}`);

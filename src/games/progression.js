@@ -6,15 +6,19 @@ const startPhrase = 'What number is missing in the progression?';
 const progressionLen = 10;
 
 const gameLogic = () => {
-  const initialNum = getRandomNumber(50, 1);
-  const spreadNum = getRandomNumber(10, 1);
+  const start = getRandomNumber(50, 1);
+  const step = getRandomNumber(10, 1);
   const omittedPos = getRandomNumber(progressionLen - 1, 0);
-  const progList = [initialNum];
-  while (progressionLen !== progList.length) {
-    progList.push(progList[progList.length - 1] + spreadNum);
+  const progList = [];
+  let correctAnswer;
+  for (let i = 0; i < 10; i += 1) {
+    if (i !== omittedPos) {
+      progList.push(start + step * (i + 1));
+    } else {
+      correctAnswer = String(start + step * (i + 1));
+      progList.push('..');
+    }
   }
-  const correctAnswer = String(progList[omittedPos]);
-  progList[omittedPos] = '..';
   const question = progList.join(' ');
   return cons(question, correctAnswer);
 };
