@@ -11,3 +11,5 @@
 [![asciicast](https://asciinema.org/a/tEFtAwjDKcsYuUEJmVQ2kABk5.svg)](https://asciinema.org/a/tEFtAwjDKcsYuUEJmVQ2kABk5)
 ### brain-progression game, installation and game test
 [![asciicast](https://asciinema.org/a/JEmzFoxKsxxiyC13rGlr3ToyW.svg)](https://asciinema.org/a/JEmzFoxKsxxiyC13rGlr3ToyW)
+### brain-prime game, installation and game test
+[![asciicast](https://asciinema.org/a/YRsahcag8RNYxhjgyC7BTpe46.svg)](https://asciinema.org/a/YRsahcag8RNYxhjgyC7BTpe46)
