@@ -6,7 +6,7 @@ const startPhrase = 'What is the result of the expression?';
 const signs = ['+', '*', '-'];
 
 const gameLogic = () => {
-  const randSign = getRandomNumber(3, 0);
+  const randSign = getRandomNumber(signs.length, 0);
   const num1 = getRandomNumber(20, 1);
   const num2 = getRandomNumber(20, 1);
   const question = `${num1} ${signs[randSign]} ${num2}`;
