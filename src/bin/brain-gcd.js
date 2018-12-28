@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import findGSD from '../games/brain-gcd';
+import findGSD from '../games/gcd';
 
 findGSD();

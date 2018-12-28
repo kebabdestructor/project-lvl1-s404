@@ -9,3 +9,5 @@
 [![asciicast](https://asciinema.org/a/3EK6hHJ3jSd3skc1lslQiYqdh.svg)](https://asciinema.org/a/3EK6hHJ3jSd3skc1lslQiYqdh)
 ### brain-gcd game, installation and game test
 [![asciicast](https://asciinema.org/a/tEFtAwjDKcsYuUEJmVQ2kABk5.svg)](https://asciinema.org/a/tEFtAwjDKcsYuUEJmVQ2kABk5)
+### brain-progression game, installation and game test
+[![asciicast](https://asciinema.org/a/JEmzFoxKsxxiyC13rGlr3ToyW.svg)](https://asciinema.org/a/JEmzFoxKsxxiyC13rGlr3ToyW)
